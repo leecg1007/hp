@@ -32,7 +32,7 @@ nav ul li a {
 
 .main-banner {
     background-color: #373737;
-    padding-bottom: 150px;
+    padding-bottom: 130px;
     font-size: 20px;
     padding-left: 35px;
     padding-right: 35px;
@@ -43,9 +43,10 @@ nav ul li a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    row-gap: 40;
+    row-gap: 30px;
     padding: 20px;
-    padding-top: 30;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .grid-item {
@@ -59,36 +60,49 @@ nav ul li a {
     background-color: #e0e0e0;
     font-size: 18px;
     border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .grid-item2 {
     padding: 40px;
     background-color: #e0e0e0;
     font-size: 18px;
     border-radius: 10px;
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .grid-item3 {
     padding: 40px;
     background-color: #e0e0e0;
     font-size: 18px;
     border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .grid-item4 {
     padding: 40px;
     background-color: #e0e0e0;
     font-size: 18px;
     border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .grid-item5 {
     padding: 40px;
     background-color: #e0e0e0;
     font-size: 18px;
     border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .grid-item6 {
     padding: 27px;
     background-color: #e0e0e0;
     font-size: 18px;
     border-radius: 10px;
+    padding-top: 38px;
+    padding-bottom: 28px;
 }
 .gain {
     color: #e0e0e0;
@@ -100,5 +114,5 @@ footer {
     background-color: #222;
     color: white;
     padding: 10px;
-    margin-top: 80px;
+    margin-top: 0;
 }
