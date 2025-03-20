@@ -44,7 +44,6 @@ nav ul li a {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     row-gap: 30px;
-    line-gap-override: 10;
     padding: 20px;
     padding-top: 40px;
     padding-bottom: 40px;
