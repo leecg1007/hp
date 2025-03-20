@@ -5,6 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>가평고 3-6</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        #btn{
+            float : left;
+            width: 100px;
+            height: 50px;
+            background-color: #ccc;
+            border-radius: 20px;
+
+            box-shadow: 3px 3px 3px black;
+
+            transition-duration: 0.3s
+        }
+        #btn :active{
+            margin-left: 5px;
+            margin-top: 5px;
+            box-shadow: none;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -15,14 +33,15 @@
         <h2>대학 가자, 얘들아!</h2>
         <div class="students"></div>
     </section>
+    <div id="btn">
 
     <section class="grid-container">
-        <div class="grid-item1">급식</div>
-        <div class="grid-item2">시간표</div>
-        <div class="grid-item3">알림</div>
-        <div class="grid-item4">수행/지필</div>
-        <div class="grid-item5">갤러리</div>
-        <div class="grid-item6">오류신고<br>문의</div>
+        <div id="btn" class="grid-item1">급식</div>
+        <div id="btn" class="grid-item2">시간표</div>
+        <div id="btn" class="grid-item3">알림</div>
+        <div id="btn" class="grid-item4">수행/지필</div>
+        <div id="btn" class="grid-item5">갤러리</div>
+        <div id="btn" class="grid-item6">오류신고<br>문의</div>
     </section>
 
     <footer>
