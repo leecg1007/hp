@@ -42,7 +42,7 @@ nav ul li a {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 20px;
     row-gap: 30px;
     line-gap-override: 10;
     padding: 20px;
