@@ -48,6 +48,7 @@ nav ul li a {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     row-gap: 30px;
+    border-radius: 10px;
     padding: 20px;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -56,13 +57,13 @@ nav ul li a {
 .grid-item {
     padding: 40px;
     background-color: #e0e0e0;
-    font-size: 18px;
+    font-size: 30px;
     border-radius: 10px;
 }
 .grid-item1 {
     padding: 40px;
     background-color: #e0e0e0;
-    font-size: 18px;
+    font-size: 30px;
     border-radius: 10px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -70,7 +71,7 @@ nav ul li a {
 .grid-item2 {
     padding: 40px;
     background-color: #e0e0e0;
-    font-size: 18px;
+    font-size: 30px;
     border-radius: 10px;
     
     padding-top: 50px;
@@ -79,7 +80,7 @@ nav ul li a {
 .grid-item3 {
     padding: 40px;
     background-color: #e0e0e0;
-    font-size: 18px;
+    font-size: 30px;
     border-radius: 10px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -87,7 +88,7 @@ nav ul li a {
 .grid-item4 {
     padding: 40px;
     background-color: #e0e0e0;
-    font-size: 18px;
+    font-size: 30px;
     border-radius: 10px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -95,7 +96,7 @@ nav ul li a {
 .grid-item5 {
     padding: 40px;
     background-color: #e0e0e0;
-    font-size: 18px;
+    font-size: 30px;
     border-radius: 10px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -103,7 +104,7 @@ nav ul li a {
 .grid-item6 {
     padding: 27px;
     background-color: #e0e0e0;
-    font-size: 18px;
+    font-size: 30px;
     border-radius: 10px;
     padding-top: 38px;
     padding-bottom: 28px;
