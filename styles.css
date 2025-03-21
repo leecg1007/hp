@@ -119,3 +119,19 @@ footer {
     color: white;
     padding: 10px;
 }
+
+.btn{
+    float : left;
+    width: auto;
+    height: auto;
+    background-color: #ccc;
+    border-radius: 20px;
+
+    box-shadow: 3px 3px 3px black;
+
+    transition-duration: 0.3s
+}
+.btn:active{
+    transform: translate(5px, 5px);
+    box-shadow: none;
+}
