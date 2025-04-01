@@ -3,7 +3,10 @@ const buttonsContainer = document.querySelector('.grid-container'); // 버튼들
 const timetableButton = document.querySelector('.grid-item2'); // 시간표 버튼
 const mealButton = document.querySelector('.grid-item1'); // 급식 버튼
 const TITLE = document.querySelector('.Title'); //돌아가기 버튼
+//게시판ㅍㄴ판판판
 const board = document.querySelector('.grid-item5'); // 게시판
+
+//게시판 클릭 시 게시판 컨테이너 생성성
 
 // 시간표 이미지 생성 및 설정
 const timetableImage = document.createElement('img');
@@ -12,7 +15,7 @@ timetableImage.alt = '가평고 3-6을 누르세요';
 timetableImage.style.display = 'none'; // 처음에는 숨김
 timetableImage.style.margin = '20px auto';
 timetableImage.style.width = '300px';
-timetableImage.style.height = '528px';
+timetableImage.style.height = '200px';
 
 // 급식 이미지 생성 및 설정
 const mealImage = document.createElement('img');
@@ -21,7 +24,7 @@ mealImage.alt = '가평고 3-6을 누르세요';
 mealImage.style.display = 'none'; // 처음에는 숨김
 mealImage.style.margin = '20px auto';
 mealImage.style.width = '300px';
-mealImage.style.height = '200px';
+mealImage.style.height = '528px';
 
 // body에 이미지 추가
 document.body.appendChild(timetableImage);
