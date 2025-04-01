@@ -15,7 +15,7 @@ timetableImage.alt = '가평고 3-6을 누르세요';
 timetableImage.style.display = 'none'; // 처음에는 숨김
 timetableImage.style.margin = '20px auto';
 timetableImage.style.width = '300px';
-timetableImage.style.height = '200px';
+timetableImage.style.height = '528px';
 
 // 급식 이미지 생성 및 설정
 const mealImage = document.createElement('img');
