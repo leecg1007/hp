@@ -138,3 +138,19 @@ footer {
     transform: translate(5px, 5px);
     box-shadow: none;
 }
+
+.btn1{
+    position: absolute;
+    top: 2%;
+    left: 84%;
+
+    font-size: small;
+    color: black;
+
+    background-color: #ccc;
+    border-radius: 5px;
+}
+#loginContainer {
+    margin: 20px auto;
+    text-align: center;
+}

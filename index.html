@@ -1,3 +1,4 @@
+<!--my sql 순서대로 localhost, root, Hp36153623!, 엔터, 엔터-->
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -8,7 +9,7 @@
 </head>
 <body>
     <header class="Title">
-        <h2>🌸 가평고 3-6</h2>
+        <h2>🌸 가평고 3-6<button class="btn1 login">로그인</button></h2>
     </header>
 
     <section class="main-banner">
@@ -23,15 +24,25 @@
         <div title="시험 개싫다." class="btn grid-item4">시험</div>
         <div title="게시판판판.." class="btn grid-item5">게시판</div>
         <a href="https://naver.me/GxkELbFC" title="무슨일인가요..." class="btn grid-item6">문의</a>
-        <!-- div로 이미지 올릴 수 있게 하기 -->
     </section>
     <section class="png">
         <div id="image_containor"></div>
     </section>
+
+    <div id="loginContainer">
+        <h2>로그인</h2>
+        <form>
+            <input type="text" placeholder="이름" required><br><br>
+            <input type="text" placeholder="아이디" required><br><br>
+            <input type="password" placeholder="비밀번호" required><br><br>
+            <button type="submit" class="signup">회원가입</button>
+            <button type="submit" class="signin">로그인</button>
+        </form>
+    </div>
     <!--<section>
         <h1>게시판</h1>
         <h5>누군가를 비방하거나 욕하는 글은 삭제될 수 있습니다.</h5>
-        버튼 누르면 회원가입, 로그인 기능, 데이터베이스 만들기기
+        버튼 누르면 회원가입, 로그인 기능, 로그인 버튼 눌렀는데 버튼 컨테이너 안사라짐....!!!!!
     </section>-->
 
     <script src="practice.js"></script>

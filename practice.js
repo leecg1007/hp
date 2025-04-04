@@ -4,7 +4,10 @@ const timetableButton = document.querySelector('.grid-item2'); // 시간표 버�
 const mealButton = document.querySelector('.grid-item1'); // 급식 버튼
 const TITLE = document.querySelector('.Title'); //돌아가기 버튼
 //게시판ㅍㄴ판판판
-const board = document.querySelector('.grid-item5'); // 게시판
+const board = document.querySelector('.grid-item5');
+//로그인
+const singup = document.querySelector('signup'); // 회원가입 버튼
+const signin = document.querySelector('signin'); // 로그인 버튼
 
 //게시판 클릭 시 게시판 컨테이너 생성성
 
@@ -26,6 +29,12 @@ mealImage.style.margin = '20px auto';
 mealImage.style.width = '300px';
 mealImage.style.height = '528px';
 
+//로그인 버튼 생성 및 설정
+const loginbutton = document.querySelector('.login'); // 로그인 버튼
+const loginContainer = document.querySelector('loginContainer'); // 로그인 컨테이너
+loginContainer.style.display = 'none'; // 처음에는 숨김
+
+
 // body에 이미지 추가
 document.body.appendChild(timetableImage);
 document.body.appendChild(mealImage);
@@ -42,6 +51,14 @@ mealButton.addEventListener('click', () => {
     buttonsContainer.style.display = 'none'; // 버튼 컨테이너 숨기기
     timetableImage.style.display = 'none'; // 시간표 이미지 숨기기
     mealImage.style.display = 'block'; // 급식 이미지 표시
+});
+
+// 로그인 버튼 클릭 이벤트
+loginbutton.addEventListener('click', () => {
+    buttonsContainer.style.display = 'none'; // 버튼 컨테이너 숨기기
+    timetableImage.style.display = 'none'; // 시간표 이미지 숨기기
+    mealImage.style.display = 'none'; // 급식 이미지 숨기기
+    loginContainer.style.display = 'block'; // 로그인 컨테이너 표시
 });
 
 // 돌아가기 버튼 클릭 이벤트
