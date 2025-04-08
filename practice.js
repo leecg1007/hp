@@ -31,7 +31,7 @@ mealImage.style.height = '528px';
 
 //로그인 버튼 생성 및 설정
 const loginbutton = document.querySelector('.login'); // 로그인 버튼
-const loginContainer = document.querySelector('loginContainer'); // 로그인 컨테이너
+const loginContainer = document.getElementById('loginContainer'); // 로그인 컨테이너
 loginContainer.style.display = 'none'; // 처음에는 숨김
 
 
@@ -66,9 +66,26 @@ TITLE.addEventListener('click', () => {
     buttonsContainer.style.display = 'grid'; // 버튼 컨테이너 표시
     timetableImage.style.display = 'none'; // 시간표 이미지 숨기기
     mealImage.style.display = 'none'; // 급식 이미지 숨기기
+    loginContainer.style.display = 'none'; // 로그인 컨테이너 숨기기
 });
 
 // 게시판 버튼 클릭 이벤트
 board.addEventListener('click', () => {
     location.href = 'board.html';
+});
+document.addEventListener('DOMContentLoaded', () => {
+    const loginbutton = document.querySelector('.login'); // 로그인 버튼
+    const loginContainer = document.getElementById('loginContainer'); // 로그인 컨테이너
+    const buttonsContainer = document.querySelector('.grid-container'); // 버튼 컨테이너
+
+    // 디버깅용 로그
+    console.log('loginbutton:', loginbutton);
+    console.log('loginContainer:', loginContainer);
+    console.log('buttonsContainer:', buttonsContainer);
+
+    // 로그인 버튼 클릭 이벤트
+    loginbutton.addEventListener('click', () => {
+        if (buttonsContainer) buttonsContainer.style.display = 'none'; // 버튼 컨테이너 숨기기
+        if (loginContainer) loginContainer.style.display = 'block'; // 로그인 컨테이너 표시
+    });
 });
