@@ -96,11 +96,6 @@ header {
     text-decoration: underline;
 } 
 
-footer {
-    background-color: #222;
-    color: white;
-    padding: 10px;
-}
 
 .btn{
     float : left;
@@ -108,7 +103,7 @@ footer {
     height: auto;
     background-color: #ccc;
     border-radius: 20px;
-
+    
     box-shadow: 3px 3px 3px black;
 
     transition-duration: 0.3s;
@@ -117,15 +112,19 @@ footer {
     transform: translate(5px, 5px);
     box-shadow: none;
 }
+.header{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
 
 .btn1{
     position: absolute;
-    top: 2%;
-    left: 84%;
-
+    top: 15px;
+    right: 10px;
     font-size: small;
     color: black;
-
+    
     background-color: #ccc;
     border-radius: 5px;
 }
@@ -133,4 +132,13 @@ footer {
     display: none;
     margin: 20px auto;
     text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    width: 100%;
 }
